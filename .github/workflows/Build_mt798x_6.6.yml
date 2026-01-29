@@ -16,11 +16,6 @@ jobs:
       matrix:
         include:
           - soc: "filogic"
-            config_file: "./configs/ARM/mt798x/7981_66.config"
-            description: "AE86Wrt-MT7981"
-            type: "7981_66"
-
-          - soc: "filogic"
             config_file: "./configs/ARM/mt798x/7986_66.config"
             description: "AE86Wrt-MT7986"
             type: "7986_66"
